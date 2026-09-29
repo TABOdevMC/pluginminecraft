@@ -1,0 +1,24 @@
+name: PluginMinecraft
+version: '${version}'
+main: fr.tabo.pluginminecraft.PluginMinecraft
+description: Base plugin Paper 26.2 avec intégration LuckPerms et Multiverse-Core.
+author: TABOdevMC
+website: https://github.com/TABOdevMC/pluginminecraft
+api-version: '26.2'
+
+depend:
+  - LuckPerms
+  - Multiverse-Core
+
+commands:
+  pluginminecraft:
+    description: Commande principale de PluginMinecraft
+    usage: /pluginminecraft <info|reload>
+    aliases:
+      - pmc
+    permission: pluginminecraft.admin
+
+permissions:
+  pluginminecraft.admin:
+    description: Accès aux commandes d'administration de PluginMinecraft
+    default: op

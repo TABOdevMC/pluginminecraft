@@ -3,17 +3,3 @@ version: 1.0.0
 main: fr.cristallya.islandsplugin.PluginMinecraft
 api-version: '26.2'
 author: TABOdevMC
-depend:
-  - LuckPerms
-  - Multiverse-Core
-commands:
-  pluginminecraft:
-    description: Commande principale de PluginMinecraft.
-    aliases: [pm]
-    usage: /pluginminecraft <info|whoami|worlds|reload>
-    permission: pluginminecraft.command
-permissions:
-  pluginminecraft.command:
-    default: true
-  pluginminecraft.admin:
-    default: op

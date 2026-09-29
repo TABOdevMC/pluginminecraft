@@ -1,21 +1,17 @@
 name: PluginMinecraft
 version: 1.0.0
-main: fr.tabodevmc.pluginminecraft.PluginMinecraft
+main: fr.cristallya.islandsplugin.PluginMinecraft
 api-version: '26.2'
 author: TABOdevMC
-description: Base plugin Paper pour le serveur Minecraft.
-
 depend:
   - LuckPerms
   - Multiverse-Core
-
 commands:
   pluginminecraft:
     description: Commande principale de PluginMinecraft.
     aliases: [pm]
     usage: /pluginminecraft <info|whoami|worlds|reload>
     permission: pluginminecraft.command
-
 permissions:
   pluginminecraft.command:
     default: true
